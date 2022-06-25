@@ -1,0 +1,131 @@
+@font-face {
+    font-family: abster;
+    src: url(font/abster-webfont.woff) format('woff');
+}
+    
+*{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(rgba(0,0,0,0,8), rgba(0,0,0,0,8));
+    background-image: url();
+}
+
+.container .header{
+    width: 100%;
+    height: 100px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: gray;
+}
+
+.container .header h1 a{
+    text-decoration: none;
+    color: black;
+    font-family: abster;
+    margin-left: 40%;
+}
+
+.container .nav ul li{
+    display: inline-block;
+    margin: 0 10px;
+    margin-right: 50px;
+
+    
+}
+
+.container .nav ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+.container .nav ul li a:hover{
+    color: aquamarine;
+}
+
+.container .main{
+    display: inline;
+    height: 100vh;
+    grid-template-columns: 2fr;
+    grid-gap: 10px 100px;
+    color: aquamarine;
+    margin-left: 30px;
+    margin-top: 50px;
+    padding-left: 15px 20px;
+
+}
+
+.container .main .left-navbar{
+    transition: all .4s;
+    padding: 10px 25px;
+    float: left;
+    margin-left: 50px;
+    width: 23%;
+    height: 490px;
+    float: left;
+    background-color: bisque;
+    text-align: left;
+    margin-top: 50px;
+}
+
+
+.container .main h1 a{
+    font-size: 20px;
+    color: black;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 0px;
+    text-decoration: none;
+    
+}
+
+.container .main h1 a:hover{
+    color: palevioletred;
+}
+
+.container .main h2 a{
+    font-size: 15px;
+    color: black;
+    padding-top: 10px;
+    scroll-padding-bottom: 10px;
+    padding-left: 20px;
+    text-decoration-line: none;
+
+}
+
+.container .main h2 a:hover{
+    color: rgb(108, 164, 228);
+}
+
+.container .main .content{
+   width:700px;
+   height: 490px;
+   float: right;
+   margin-top: 50px;
+   margin-right: 390px;
+   background-color: white;
+   transition: all .4s;
+}
+
+.container .main .content h1{
+   text-align: left;
+   padding-top: 10px;
+   padding-left: 10px;
+   padding: 0px 50px;
+    color: black;
+    background-color: white;
+}
+
+.container .main .content img{
+    padding-top: 10px;
+    padding-left: 5px;
+    height: 91%;
+    width: 90%;
+}

@@ -1,0 +1,46 @@
+<!DOCTYPE html><!DOCTYPE html>
+{% load static %}
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+    content="width=device-width, initial-scale=1.0">
+    <title>home</title>
+    <link rel="stylesheet" href="{% static 'css/home.css' %}?after">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1><a href="#">USGajo</a></h1>
+            <div class="nav">
+                <ul>
+                    <li><a href="{% url 'index' %}">HOME</a></li>
+                    <li><a href="#">login</a></li>
+                    <li><a href="#}">Purdue</a></li>
+                    <li><a href="#">USS</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="main">
+            <div class="left-navbar">
+                <h1><a href="#">🧸 블로그 소개</a></h1>
+                <h1><a href="{% url 'introduce' %}">💁‍♀️ SW 해외프로그램 소개</a></h1>
+                <h1><a href="#">🐺 퍼듀대학교 가을학기</a></h1>
+                <h2><a href="#">- 프로그램 소개</a></h1>
+                <h2><a href="#">- 사진첩</a></h1>
+                <h2><a href="#">- 희원 일기</a></h1>
+                <h2><a href="#">- 한비 일기</a></h1>
+                <h1><a href="#">🐰 SSU</a></h1>
+                <h2><a href="#">- 프로그램 소개</a></h1>
+                <h2><a href="#">- 사진첩</a></h1>
+                <h2><a href="#">- 수정 일기</a></h1>
+                <h2><a href="#">- 혜림 일기</a></h1>
+            </div>
+            <div class="content">
+                <h1> 👻K-SQUARE DIARY 👻</h1>
+                <img src="/static/css/baegyeong.jpg">
+            </div>
+        </div>
+    </div>
+</body>
+</html>  
